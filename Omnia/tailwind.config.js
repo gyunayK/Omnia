@@ -15,6 +15,7 @@ export default {
       fontFamily: {
        
         Archivo: ['Archivo', 'sans-serif'],
+        Tektur: ['Tektur', 'sans-serif'],
         'sans': ['ui-sans-serif', 'system-ui'],
         'serif': ['ui-serif', 'Georgia'],
       },

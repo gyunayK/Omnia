@@ -4,30 +4,15 @@ const useScrollCheck = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const checkScroll = () => {
-      let bottomSectionTrigger;
-      const triggerLength = window.innerHeight * 0.1;
-
-      if (window.innerWidth > 768) {
-        bottomSectionTrigger = 300;
-      } else {
-        bottomSectionTrigger = 665;
-      }
-
-      if (
-        window.scrollY >
-          document.documentElement.scrollHeight -
-            window.innerHeight -
-            bottomSectionTrigger &&
-        window.innerWidth < 2000
-      ) {
-        setIsScrolled(false);
-      } else if (window.scrollY > window.innerHeight - triggerLength) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+   
+      const checkScroll = () => {
+        if (window.scrollY > window.innerHeight * 0.9) {
+            setIsScrolled(true);
+        } else {
+            setIsScrolled(false);
+        }
     };
+
 
     window.addEventListener("scroll", checkScroll);
 

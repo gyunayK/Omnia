@@ -1,6 +1,9 @@
 function About() {
   return (
-    <section className="bg-[#f1f1f1] py-20 text-black font-Archivo absolute w-full left-0">
+    <section className="bg-[#f1f1f1] py-20 text-black font-Archivo absolute w-full left-0"
+    id="about"
+  
+    >
       <div className="p-5 max-w-5xl mx-auto">
         <div className="flex gap-20 items-center ">
           <div className="text-black flex flex-col gap-5 max-w-xl">
@@ -19,14 +22,14 @@ function About() {
               offer a range of specialized services tailored to your success.
               From crafting compelling profiles and creating captivating content
               to strategic marketing, audience engagement, and comprehensive
-              analytics, we're committed to propelling your journey to new
+              analytics, we&apos;re committed to propelling your journey to new
               heights. Let us handle the intricacies while you focus on what you
               do best – creating amazing content and building your unique brand.
               Join Omnia and unlock the full spectrum of possibilities on
               OnlyFans.
             </p>
           </div>
-          <div className="mt-16 w-fit">
+          <div className="mt-16 w-fit hidden md:block">
             <img
               src="https://ik.imagekit.io/riviaa/Omnia/1a948d4141e3570dc27abff171bc8d8d.jpg?updatedAt=1691623348753"
               alt="aboutUS"

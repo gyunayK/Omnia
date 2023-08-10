@@ -6,6 +6,7 @@ function Hero() {
         background:
           "linear-gradient(to top, #93059D 0%, rgb(151,124,197) 100%)",
       }}
+      id="home"
     >
       <div
         className="w-full h-[100dvh] bg-contain bg-no-repeat  bg-right-bottom  bg-hero  flex "
