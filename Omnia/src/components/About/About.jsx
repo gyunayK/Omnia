@@ -1,7 +1,7 @@
 function About() {
   return (
     <section className="bg-[#f1f1f1] py-20 text-black font-Archivo absolute w-full left-0">
-      <div className="p-5 max-w-6xl mx-auto">
+      <div className="p-5 max-w-5xl mx-auto">
         <div className="flex gap-20 items-center ">
           <div className="text-black flex flex-col gap-5 max-w-xl">
             <h1 className="text-md font-bold pt-10 text-[#01AEEF]">

@@ -8,7 +8,7 @@ function Hero() {
       }}
     >
       <div
-        className="w-full h-[100dvh] bg-contain bg-no-repeat bg-right  bg-hero  flex "
+        className="w-full h-[100dvh] bg-contain bg-no-repeat  bg-right-bottom  bg-hero  flex "
         id="home"
       >
         <div className="text-white flex flex-col self-center xs:pl-[5%] lg:pl-[15%] pb-2 z-10">

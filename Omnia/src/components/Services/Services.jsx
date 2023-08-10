@@ -1,13 +1,17 @@
 function Services() {
   return (
-    <div className=" bg-white py-20 text-black">
-      <div className="p-5 max-w-6xl mx-auto">
+    <div className=" bg-white py-20 text-black w-full">
+      <div className="p-5 max-w-5xl mx-auto">
         <h1 className="text-md font-bold pt-10 text-[#01AEEF]">WHAT WE DO</h1>
         <h1 className="text-5xl pt-6 font-extrabold text-black">Services</h1>
-        <div className="mt-10 grid grid-cols-2 gap-x-40 gap-y-20">
+        <div className="mt-10 flex flex-wrap gap-28">
           <div className="w-[400px] flex flex-col gap-3">
-            <div className="bg-service_ph bg-contain bg-no-repeat w-full h-[240px]"></div>
-            <h2 className=" text-lg font-semibold text-[#008CCF] ">
+            <img
+              src="https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166"
+              alt="service_logo"
+              className=" bg-contain bg-no-repeat w-full h-[240px]"
+            />
+            <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
               Full management
             </h2>
             <p className="text-[#3e3e3e]">
@@ -21,8 +25,12 @@ function Services() {
             </p>
           </div>
           <div className="w-[400px] flex flex-col gap-3">
-            <div className="bg-service_ph bg-contain w-full h-[240px]"></div>
-            <h2 className=" text-lg font-semibold text-[#008CCF] ">
+            <img
+              src="https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166"
+              alt="service_logo"
+              className=" bg-contain bg-no-repeat w-full h-[240px]"
+            />
+            <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
               Account Growth
             </h2>
             <p className="text-[#3e3e3e]">
@@ -35,8 +43,12 @@ function Services() {
             </p>
           </div>
           <div className="w-[400px] flex flex-col gap-3">
-            <div className="bg-service_ph bg-contain w-full h-[240px]"></div>
-            <h2 className=" text-lg font-semibold text-[#008CCF] ">
+            <img
+              src="https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166"
+              alt="service_logo"
+              className=" bg-contain bg-no-repeat w-full h-[240px]"
+            />
+            <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
               Content Creation
             </h2>
             <p className="text-[#3e3e3e]">
@@ -50,8 +62,12 @@ function Services() {
             </p>
           </div>
           <div className="w-[400px] flex flex-col gap-3">
-            <div className="bg-service_ph bg-contain w-full h-[240px]"></div>
-            <h2 className=" text-lg font-semibold text-[#008CCF] ">
+            <img
+              src="https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166"
+              alt="service_logo"
+              className=" bg-contain bg-no-repeat w-full h-[240px]"
+            />
+            <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
               Regular Audits
             </h2>
             <p className="text-[#3e3e3e]">

@@ -40,12 +40,19 @@ function LetsTalk() {
   };
 
   return (
-    <section id="letstalk" className="mt-[800px]">
-      <div className="p-5 max-w-6xl mx-auto">
+    <section id="letstalk" className="mt-[800px] relative ">
+      <div className="p-5 max-w-5xl mx-auto z-0 relative">
         <h1 className="text-md font-bold pt-10 text-[#01AEEF]">
           READY FOR A BETTER LIFE?
         </h1>
-        <h1 className="text-5xl pt-6 font-extrabold text-black">Let's talk</h1>
+        <h1 className="text-5xl pt-6 font-extrabold text-black">
+          Let's Connect
+        </h1>
+        <p className="text-lg mt-4 mb-8 text-gray-600 max-w-[550px]">
+          We value your feedback and inquiries. Drop us a message and we'll get
+          back as soon as posible. Your privacy is paramount; rest assured,
+          your details are safe with us.
+        </p>
         <div className="max-w-xl mt-10">
           <Box
             component="form"
