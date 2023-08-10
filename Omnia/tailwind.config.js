@@ -9,7 +9,8 @@ export default {
       backgroundImage: {
         'hero': "url('https://ik.imagekit.io/riviaa/Omnia/hero.png?updatedAt=1691465281220')",
         'logo': "url('https://ik.imagekit.io/riviaa/Omnia/Omnia_Logo.png?updatedAt=1691465009212')",
-         'service_ph' : "url('https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166')",
+        'service_ph' : "url('https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166')",
+        'about_us' : "url('https://ik.imagekit.io/riviaa/Omnia/1a948d4141e3570dc27abff171bc8d8d.jpg?updatedAt=1691623348753')",
       },
       fontFamily: {
        
