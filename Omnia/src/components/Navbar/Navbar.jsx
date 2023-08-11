@@ -6,7 +6,7 @@ import "./hamburgeStyle.css";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const activeSection = useActiveSection(0.5);
+  const activeSection = useActiveSection(0.7);
 
   const isScrolled = useScrollCheck();
 
@@ -29,7 +29,7 @@ function Navbar() {
     <nav className="font-Tektur">
       <div>
         <div
-          className={`hidden md:block fixed bg-logo bg-contain bg-no-repeat h-[150px] w-[150px] top-7 left-6 md:-top-4 md:left-20 2xl:left-64 max:left-[350px]  px-2 z-30`}
+          className={`hidden md:block fixed bg-logo bg-contain bg-no-repeat h-[150px] w-[150px] top-7 left-6 md:-top-8 md:left-20 2xl:left-64 max:left-[350px]   z-[200]`}
         ></div>
 
         <div
@@ -82,7 +82,7 @@ function Navbar() {
           </ul>
         </div>
         <div
-          className={`bg-black w-full z-[777] transition-all duration-200 ease-in-out top-0 ${
+          className={`bg-black w-full z-[100] transition-all duration-200 ease-in-out top-0 ${
             isScrolled ? "h-[83px]" : "h-0"
           } md:fixed hidden md:block`}
         >

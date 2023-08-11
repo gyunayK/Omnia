@@ -1,12 +1,9 @@
 function Services() {
   return (
-    <section className=" bg-white py-20 text-black w-full"
-    id="services"
-    
-    >
-      <div className="p-5 max-w-5xl mx-auto font-Archivo">
+    <section className="py-20 w-full" id="services">
+      <div className="p-5 max-w-6xl mx-auto font-Archivo">
         <h1 className="text-md font-bold pt-10 text-[#01AEEF]">WHAT WE DO</h1>
-        <h1 className="text-5xl pt-6 font-extrabold text-black">Services</h1>
+        <h1 className="text-6xl pt-6 font-extrabold text-black">Services</h1>
         <div className="mt-10 flex flex-wrap gap-28">
           <div className="w-[400px] flex flex-col gap-3">
             <img
@@ -38,11 +35,12 @@ function Services() {
             </h2>
             <p className="text-[#3e3e3e]">
               Experience exponential account growth with our specialized
-              strategies. We&apos;ll optimize your content, engage your audience, and
-              leverage data-driven insights to maximize your reach and revenue
-              on OnlyFans. Our proven methods will elevate your subscriber base
-              and fan interactions, propelling your account to new heights of
-              success within the platform&apos;s vibrant community.
+              strategies. We&apos;ll optimize your content, engage your
+              audience, and leverage data-driven insights to maximize your reach
+              and revenue on OnlyFans. Our proven methods will elevate your
+              subscriber base and fan interactions, propelling your account to
+              new heights of success within the platform&apos;s vibrant
+              community.
             </p>
           </div>
           <div className="w-[400px] flex flex-col gap-3">
@@ -77,9 +75,9 @@ function Services() {
               Stay ahead of the curve with our Regular Audits service. We
               meticulously review your content, engagement strategies, and
               performance metrics to identify opportunities for growth and
-              refinement. With our insights, you&apos;ll fine-tune your approach,
-              optimize your results, and maintain a thriving presence on
-              OnlyFans. Trust our expertise to keep your strategy sharp and
+              refinement. With our insights, you&apos;ll fine-tune your
+              approach, optimize your results, and maintain a thriving presence
+              on OnlyFans. Trust our expertise to keep your strategy sharp and
               effective through ongoing evaluation and adaptation
             </p>
           </div>

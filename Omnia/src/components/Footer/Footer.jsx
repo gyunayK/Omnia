@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='h-screen border-t-2 border-black'>Footer</div>
   )
 }
 

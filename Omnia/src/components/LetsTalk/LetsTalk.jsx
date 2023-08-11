@@ -41,7 +41,7 @@ function LetsTalk() {
 
   return (
     <section id="letstalk" className="mt-[800px] relative ">
-      <div className="p-5 max-w-5xl mx-auto z-0 relative">
+      <div className="p-5 max-w-6xl mx-auto z-0 relative">
         <h1 className="text-md font-bold pt-10 text-[#01AEEF]">
           READY FOR A BETTER LIFE?
         </h1>
