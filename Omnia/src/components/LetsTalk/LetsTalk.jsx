@@ -6,7 +6,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
-import React from "react";
 
 function LetsTalk() {
   const form = useRef();
@@ -46,7 +45,7 @@ function LetsTalk() {
           READY FOR A BETTER LIFE?
         </h1>
         <h1 className="text-5xl pt-6 font-extrabold text-black">
-          Let's Connect
+          Let&apos;s Connect
         </h1>
         <p className="text-lg mt-4 mb-8 text-gray-600 max-w-[550px]">
           We value your feedback and inquiries. Drop us a message and we'll get

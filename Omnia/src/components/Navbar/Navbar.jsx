@@ -79,6 +79,12 @@ function Navbar() {
             >
               LETS&apos;S TALK{" "}
             </li>
+            <li
+              className={`cursor-pointer `}
+              onClick={() => scrollToSection("faq")}
+            >
+              FAQ{" "}
+            </li>
           </ul>
         </div>
         <div
@@ -118,6 +124,14 @@ function Navbar() {
               onClick={() => scrollToSection("letstalk")}
             >
               LET&apos;S TALK
+            </li>
+            <li
+              className={`cursor-pointer border-transparent  border-b-2 hover:border-white ${
+                activeSection === "faq" && "text-[#D16EFF]"
+              }`}
+              onClick={() => scrollToSection("faq")}
+            >
+              FAQ
             </li>
           </ul>
         </div>

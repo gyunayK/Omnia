@@ -5,7 +5,7 @@ function About() {
   
     >
       <div className="p-5 max-w-6xl mx-auto">
-        <div className="flex gap-20 items-center ">
+        <div className="flex gap-36 items-center ">
           <div className="text-black flex flex-col gap-5 max-w-xl">
             <h1 className="text-md font-bold pt-10 text-[#01AEEF]">
               HOW WE DO IT

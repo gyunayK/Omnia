@@ -4,13 +4,13 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 function Faq() {
   return (
     <section className="py-20 my-20 w-full border-t-2" id="faq">
-      <div className="max-w-6xl mx-auto font-Archivo flex flex-col md:flex-row gap-y-10  md:gap-96">
+      <div className="max-w-6xl p-5 mx-auto font-Archivo flex flex-col gap-10 md:gap-0 md:flex-row md:space-x-96">
         <div>
           <h1 className="text-md font-bold text-[#01AEEF]">INCREASE VALUES</h1>
           <h1 className="text-5xl pt-6 font-extrabold text-black">FAQ</h1>
         </div>
 
-        <div className="w-96   flex flex-col gap-3">
+        <div className="w-full    flex flex-col gap-3">
           <Disclosure>
             {({ open }) => (
               <>
@@ -34,7 +34,7 @@ function Faq() {
                   <Disclosure.Panel
                     className={`opacity-0 duration-300 ease-out ${
                       open ? "opacity-100" : ""
-                    } px-4 pt-4 pb-2 text-lg text-[#01AEEF]`}
+                    } px-4 pt-4 pb-2 text-lg text-[#B200F3]`}
                   >
                     If you&apos;re unhappy with your purchase for any reason,
                     email us within 90 days and we&apos;ll refund you in full,
@@ -69,7 +69,7 @@ function Faq() {
                   <Disclosure.Panel
                     className={`opacity-0 duration-300 ease-out ${
                       open ? "opacity-100" : ""
-                    } px-4 pt-4 pb-2 text-lg text-[#01AEEF]`}
+                    } px-4 pt-4 pb-2 text-lg text-[#B200F3]`}
                   >
                     If you&apos;re unhappy with your purchase for any reason,
                     email us within 90 days and we&apos;ll refund you in full,
@@ -104,7 +104,7 @@ function Faq() {
                   <Disclosure.Panel
                     className={`opacity-0 duration-300 ease-out ${
                       open ? "opacity-100" : ""
-                    } px-4 pt-4 pb-2 text-lg text-[#01AEEF]`}
+                    } px-4 pt-4 pb-2 text-lg text-[#B200F3]`}
                   >
                     If you&apos;re unhappy with your purchase for any reason,
                     email us within 90 days and we&apos;ll refund you in full,
@@ -139,7 +139,7 @@ function Faq() {
                   <Disclosure.Panel
                     className={`opacity-0 duration-300 ease-out ${
                       open ? "opacity-100" : ""
-                    } px-4 pt-4 pb-2 text-lg text-[#01AEEF]`}
+                    } px-4 pt-4 pb-2 text-lg text-[#B200F3]`}
                   >
                     If you&apos;re unhappy with your purchase for any reason,
                     email us within 90 days and we&apos;ll refund you in full,
