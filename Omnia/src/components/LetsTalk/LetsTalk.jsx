@@ -44,7 +44,7 @@ function LetsTalk() {
       id="letstalk"
       className="mt-[800px] relative font-Archivo px-5 md:px-0 "
     >
-      <div className="flex flex-col md:flex-row max-w-6xl mx-auto  md:gap-40 ">
+      <div className="flex flex-col  md:flex-row  md:justify-between  max-w-6xl mx-auto  ">
         <div>
           <h1 className="text-md font-bold pt-10 text-[#01AEEF]">
             READY FOR A BETTER LIFE?
@@ -106,11 +106,11 @@ function LetsTalk() {
         </div>
 
         <div>
-          <div className="min-w-5xl mt-10">
+          <div className="mt-10">
             <Box
               component="form"
               sx={{
-                minWidth: "300px",
+                minWidth: "400px",
 
                 textEmphasisColor: "white",
                 display: "flex",
