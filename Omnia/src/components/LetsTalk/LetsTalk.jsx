@@ -42,7 +42,7 @@ function LetsTalk() {
   return (
     <section
       id="letstalk"
-      className="mt-[800px] relative font-Archivo px-5 md:px-0"
+      className="mt-[800px] relative font-Archivo px-5 md:px-0 "
     >
       <div className="flex flex-col md:flex-row max-w-6xl mx-auto  md:gap-40 ">
         <div>

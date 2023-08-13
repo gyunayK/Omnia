@@ -1,5 +1,5 @@
-import {AiOutlineInstagram} from 'react-icons/ai'
-import {CiTwitter} from 'react-icons/ci'
+import { AiOutlineInstagram } from "react-icons/ai";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 function Footer() {
   return (
@@ -21,34 +21,34 @@ function Footer() {
         <img
           src="https://ik.imagekit.io/riviaa/Omnia/A_letter_tech_logo_2.png?updatedAt=1691831497528"
           alt="footer_Logo"
-          className="w-40 h-40 "
+          className="w-48 h-w-48 "
         />
 
         <div className="text-white flex flex-col gap-3">
           <h1 className="font-bold tracking-wider text-lg">SOCIALS</h1>
-          <a href="#" className="text-lg">
-            Legal Notice
-          </a>
-          <a href="#" className="text-lg">
-            Privacy policy
-          </a>
-          <div className="flex gap-3">
-            <a href="#" className="text-4xl">
-              <CiTwitter/>
-            </a>
-            <a href="#" className="text-3xl">
-             <AiOutlineInstagram/>
-            </a>
+
+          <div className="flex  gap-3">
+            <div className="flex gap-3">
+              <a
+                href="https://www.instagram.com/omnia.consultingof/"
+                className="text-3xl"
+              >
+                <AiOutlineInstagram />
+              </a>
+            </div>
+            <div className="flex gap-3">
+              <a href="mailto:Omniaconsultingof@gmail.com" className="text-3xl">
+                <MdOutlineMailOutline />
+              </a>
+            </div>
           </div>
         </div>
       </div>
       <div className="border-t-[1px] border-gray-50">
         <div className="p-5 max-w-6xl mx-auto font-Archivo">
           <p className="text-white text-lg text-center">
-            © 2021 Omnia. All rights reserved.
+            © 2023 Omnia. All rights reserved.
           </p>
-          
-         
         </div>
       </div>
     </div>

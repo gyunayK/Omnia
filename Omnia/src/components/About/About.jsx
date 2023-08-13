@@ -33,7 +33,7 @@ function About() {
               OnlyFans.
             </p>
           </div>
-          <div className="mt-16 w-fit hidden md:block ">
+          <div className="mt-16   hidden lg:block ">
             <img
               src="https://ik.imagekit.io/riviaa/Omnia/A_letter_tech_logo_2.png?updatedAt=1691831497528"
               alt="aboutUS"

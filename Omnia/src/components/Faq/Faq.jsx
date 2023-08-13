@@ -5,7 +5,7 @@ import { faqData } from "./faqData";
 
 function Faq() {
   return (
-    <section className="py-20 my-20 w-full border-t-2" id="faq">
+    <section className="py-20 my-20 w-full " id="faq">
       <div className="max-w-6xl px-5 md:px-0 mx-auto font-Archivo flex flex-col gap-10 md:gap-0 md:flex-row md:space-x-96">
         <div>
           <h1 className="text-md font-bold text-[#01AEEF] whitespace-nowrap">
