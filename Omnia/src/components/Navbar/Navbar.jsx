@@ -18,9 +18,12 @@ function Navbar() {
   };
 
   const scrollToSection = (section) => {
+
+    const checkSection = section === 'services' ? 'start' : 'center'
+
     document.getElementById(section).scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: checkSection,
     });
     setIsMenuOpen(false);
   };
@@ -29,7 +32,8 @@ function Navbar() {
     <nav className="font-Tektur">
       <div>
         <div
-          className={`hidden md:block fixed bg-logo bg-contain bg-no-repeat h-[150px] w-[150px] top-7 left-6 md:-top-8 md:left-20 2xl:left-64 max:left-[350px]   z-[200]`}
+          className={`hidden cursor-pointer md:block fixed bg-logo bg-contain bg-no-repeat h-[150px] w-[150px] top-7 left-6 md:-top-8 md:left-20 2xl:left-64 max:left-[350px]   z-[200]`}
+          onClick={() => scrollToSection("home")}
         ></div>
 
         <div

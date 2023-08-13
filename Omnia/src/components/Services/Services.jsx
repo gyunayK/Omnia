@@ -1,7 +1,7 @@
 function Services() {
   return (
     <section className="py-20 w-full" id="services">
-      <div className="p-5 max-w-6xl mx-auto font-Archivo">
+      <div className=" max-w-6xl mx-auto font-Archivo px-5 md:px-0">
         <h1 className="text-md font-bold pt-10 text-[#01AEEF]">WHAT WE DO</h1>
         <h1 className="text-6xl pt-6 font-extrabold text-black">Services</h1>
         <div className="mt-10 flex flex-wrap justify-between gap-y-24">

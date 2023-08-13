@@ -1,5 +1,3 @@
-import React from 'react';
-
 import TextField from "@mui/material/TextField";
 import PropTypes from "prop-types";
 import LoadingButton from "@mui/lab/LoadingButton";
@@ -71,7 +69,12 @@ export function StyledTextField2({ register, errors, name, label, id }) {
       maxRows={4}
       name={name}
       fullWidth
-      inputProps={{ style: { color: "black" } }}
+      inputProps={{
+        style: {
+          color: "black",
+          height: "100px",
+        },
+      }}
       sx={{
         "& label.Mui-focused": {
           color: "black",
@@ -132,7 +135,7 @@ export function StyledButton({ isSubmitting, isSubmitted }) {
     >
       {isSubmitted ? (
         <>
-          <GiPartyPopper size={30} /> SUCCESS <GiPartyPopper size={35} />
+          <GiPartyPopper size={30} /> SENT <GiPartyPopper size={35} />
         </>
       ) : (
         "SUBMIT"

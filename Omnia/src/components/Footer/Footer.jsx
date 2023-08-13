@@ -19,7 +19,7 @@ function Footer() {
 
       <div className="p-5 max-w-6xl mx-auto font-Archivo flex  items-center justify-between">
         <img
-          src="https://ik.imagekit.io/riviaa/Omnia/Omnia_Logo.png?updatedAt=1691465009212"
+          src="https://ik.imagekit.io/riviaa/Omnia/A_letter_tech_logo_2.png?updatedAt=1691831497528"
           alt="footer_Logo"
           className="w-40 h-40 "
         />
