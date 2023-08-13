@@ -6,7 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { BsTelephoneForward, BsInstagram } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 
 function LetsTalk() {
   const form = useRef();
@@ -29,10 +29,10 @@ function LetsTalk() {
   const sendEmail = async () => {
     try {
       await emailjs.sendForm(
-        "service_c60y4kb",
-        "template_xlhx7hj",
+        "service_27376pr",
+        "template_97zj216",
         form.current,
-        "tfrJ4KkGsoiHAZ6i1"
+        "JQQ4DAo7jgmN6t5DY"
       );
     } catch (error) {
       console.log(error);
@@ -82,26 +82,15 @@ function LetsTalk() {
                 </h1>
                 <a
                   href="https://www.instagram.com/omnia.consultingof/"
-                  className="text-[#D16EFF] text-lg underline"
+                  className="text-[#D16EFF] text-lg underline "
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   @omnia.consultingof
                 </a>
               </div>
             </div>
-            <div className="flex gap-4">
-              <BsTelephoneForward fontSize={40} color="#D16EFF" />
-              <div>
-                <h1 className="text-2xl font-semibold t-10 text-[#01AEEF]">
-                  Call us
-                </h1>
-                <a
-                  href="mailto:Omniaconsultingof@gmail.com"
-                  className="text-[#D16EFF] text-lg "
-                >
-                  +1 (647) 491- 8888
-                </a>
-              </div>
-            </div>
+            
           </div>
         </div>
 

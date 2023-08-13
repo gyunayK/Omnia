@@ -32,6 +32,8 @@ function Footer() {
               <a
                 href="https://www.instagram.com/omnia.consultingof/"
                 className="text-3xl"
+                target="_blank"
+                rel="noreferrer"
               >
                 <AiOutlineInstagram />
               </a>
