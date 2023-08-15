@@ -9,7 +9,7 @@ function Services() {
             <img
               src="https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166"
               alt="service_logo"
-              className=" bg-contain bg-no-repeat h-full w-full"
+              className=" object-contain bg-no-repeat h-full w-full"
             />
             <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
               Full management
@@ -28,7 +28,7 @@ function Services() {
             <img
               src="https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166"
               alt="service_logo"
-              className=" bg-contain bg-no-repeat w-full h-full"
+              className=" object-contain bg-no-repeat w-full h-full"
             />
             <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
               Account Growth
@@ -47,7 +47,7 @@ function Services() {
             <img
               src="https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166"
               alt="service_logo"
-              className=" bg-contain bg-no-repeat w-full h-full"
+              className=" object-contain bg-no-repeat w-full h-full"
             />
             <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
               Content Creation
@@ -66,7 +66,7 @@ function Services() {
             <img
               src="https://ik.imagekit.io/riviaa/Omnia/service_PH.png?updatedAt=1691470287166"
               alt="service_logo"
-              className=" bg-contain bg-no-repeat w-full h-full"
+              className=" object-contain bg-no-repeat w-full h-full"
             />
             <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
               Regular Audits
