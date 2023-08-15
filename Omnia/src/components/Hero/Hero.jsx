@@ -1,3 +1,5 @@
+import { MdKeyboardArrowDown } from "react-icons/md";
+
 function Hero() {
   return (
     <section
@@ -17,14 +19,14 @@ function Hero() {
             <span className="inline-block h-[2px] w-8 bg-[#e49dfc] mr-2 mb-1"></span>
             WE BUILD OUTSTANDING ONLYFANS CAREERS
           </h2>
-          <h1 className="text-5xl md:text-6xl text-white font-Archivo font-extrabold">
+          <h1 className="text-5xl md:text-6xl text-white font-Archivo font-extrabold mt-5">
             Empower to <br />
             Succeed
           </h1>
 
           <div className="flex items-center translate-y-20">
-            <h3 className="text-sm md:text-lg tracking-widest mr-2">
-              SCROLL DOWN
+            <h3 className="text-base font-medium md:text-lg tracking-widest mr-2 flex items-center">
+              SCROLL DOWN <MdKeyboardArrowDown size={35}/>
             </h3>
           </div>
         </div>

@@ -42,7 +42,7 @@ function LetsTalk() {
   return (
     <section
       id="letstalk"
-      className="mt-[800px] relative font-Archivo px-5 md:px-0 "
+      className="mt-[850px] relative font-Archivo px-5 md:px-0 "
     >
       <div className="flex flex-col  md:flex-row  md:justify-between  max-w-6xl mx-auto  ">
         <div>
@@ -99,7 +99,7 @@ function LetsTalk() {
             <Box
               component="form"
               sx={{
-                minWidth: "400px",
+                minWidth: "350px",
 
                 textEmphasisColor: "white",
                 display: "flex",
