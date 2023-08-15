@@ -34,12 +34,17 @@ function Footer() {
                 className="text-3xl"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Follow us on Instagram"
               >
                 <AiOutlineInstagram />
               </a>
             </div>
             <div className="flex gap-3">
-              <a href="mailto:Omniaconsultingof@gmail.com" className="text-3xl">
+              <a
+                href="mailto:Omniaconsultingof@gmail.com"
+                className="text-3xl"
+                aria-label="Send us an email"
+              >
                 <MdOutlineMailOutline />
               </a>
             </div>

@@ -25,9 +25,9 @@ function Hero() {
           </h1>
 
           <div className="flex items-center translate-y-20">
-            <h3 className="text-base font-medium md:text-lg tracking-widest mr-2 flex items-center">
+            <h2 className="text-base font-medium md:text-lg tracking-widest mr-2 flex items-center">
               SCROLL DOWN <MdKeyboardArrowDown size={35}/>
-            </h3>
+            </h2>
           </div>
         </div>
       </div>

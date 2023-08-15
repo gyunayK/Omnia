@@ -46,7 +46,7 @@ function LetsTalk() {
     >
       <div className="flex flex-col  md:flex-row  md:justify-between  max-w-6xl mx-auto  ">
         <div>
-          <h1 className="text-md font-bold pt-10 text-[#01AEEF]">
+          <h1 className="text-md font-bold pt-10 text-[#0026FF]">
             READY FOR A BETTER LIFE?
           </h1>
           <h1 className="text-5xl pt-6 font-extrabold text-black">
@@ -60,14 +60,14 @@ function LetsTalk() {
 
           <div className="flex flex-col gap-4">
             <div className="flex gap-4">
-              <MdOutlineMailOutline fontSize={40} color="#D16EFF" />
+              <MdOutlineMailOutline fontSize={40} color="#a237d3" />
               <div>
-                <h1 className="text-2xl font-semibold t-10 text-[#01AEEF]">
+                <h1 className="text-2xl font-semibold t-10 text-[#a237d3]">
                   Mail us
                 </h1>
                 <a
                   href="mailto:Omniaconsultingof@gmail.com"
-                  className="text-[#D16EFF] text-lg underline"
+                  className="text-[#8900FA] text-lg underline"
                 >
                   Omniaconsultingof@gmail.com
                 </a>
@@ -75,14 +75,14 @@ function LetsTalk() {
             </div>
 
             <div className="flex gap-4">
-              <BsInstagram fontSize={40} color="#D16EFF" />
+              <BsInstagram fontSize={40} color="#a237d3" />
               <div>
-                <h1 className="text-2xl font-semibold t-10 text-[#01AEEF]">
+                <h1 className="text-2xl font-semibold t-10 text-[#a237d3]">
                   Instagram
                 </h1>
                 <a
                   href="https://www.instagram.com/omnia.consultingof/"
-                  className="text-[#D16EFF] text-lg underline "
+                  className="text-[#8900FA] text-lg underline "
                   target="_blank"
                   rel="noreferrer"
                 >

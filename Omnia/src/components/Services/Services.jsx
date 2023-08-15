@@ -2,7 +2,7 @@ function Services() {
   return (
     <section className="py-20 w-full" id="services">
       <div className=" max-w-6xl mx-auto font-Archivo px-5 md:px-0">
-        <h1 className="text-md font-bold pt-10 text-[#01AEEF]">WHAT WE DO</h1>
+        <h1 className="text-md font-bold pt-10 text-[#0026FF]">WHAT WE DO</h1>
         <h1 className="text-6xl pt-6 font-extrabold text-black">Services</h1>
         <div className="mt-10 flex flex-wrap justify-between gap-y-24">
           <div className="w-[400px] flex flex-col gap-3">
@@ -11,7 +11,7 @@ function Services() {
               alt="service_logo"
               className=" object-contain bg-no-repeat h-full w-full"
             />
-            <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
+            <h2 className=" text-lg font-semibold text-[#0019A5] tracking-wider ">
               Full management
             </h2>
             <p className="text-[#3e3e3e] text-lg ">
@@ -30,7 +30,7 @@ function Services() {
               alt="service_logo"
               className=" object-contain bg-no-repeat w-full h-full"
             />
-            <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
+            <h2 className=" text-lg font-semibold text-[#0019A5] tracking-wider ">
               Account Growth
             </h2>
             <p className="text-[#3e3e3e] text-lg">
@@ -49,7 +49,7 @@ function Services() {
               alt="service_logo"
               className=" object-contain bg-no-repeat w-full h-full"
             />
-            <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
+            <h2 className=" text-lg font-semibold text-[#0019A5] tracking-wider ">
               Content Creation
             </h2>
             <p className="text-[#3e3e3e] text-lg">
@@ -68,7 +68,7 @@ function Services() {
               alt="service_logo"
               className=" object-contain bg-no-repeat w-full h-full"
             />
-            <h2 className=" text-lg font-semibold text-[#008CCF] tracking-wider ">
+            <h2 className=" text-lg font-semibold text-[#0019A5] tracking-wider ">
               Regular Audits
             </h2>
             <p className="text-[#3e3e3e] text-lg">
